@@ -1,0 +1,35 @@
+
+<launch>
+
+  <!--AGV base launch-->
+
+  <include file="$(find agv_chassis)/launch/agv_chassis.launch" >
+  </include>
+
+  <include file="$(find sick_safetyscanners)/launch/sick_safetyscanners.launch" >
+  </include>
+
+  <!--AGV advance launch-->
+  <node name="cartographer_node" pkg="cartographer_ros" type="cartographer_node" output="screen">
+  </node>
+
+  <node name="cartographer_occupancy_grid_node" pkg="cartographer_ros" 
+  type="cartographer_occupancy_grid_node" args="-resolution 0.05" />
+
+  <param name="/move_base/base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+	
+  <rosparam file="$(find cartographer_ros)/../../launch/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+  <rosparam file="$(find cartographer_ros)/../../launch/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+  <rosparam file="$(find cartographer_ros)/../../launch/param/local_costmap_params.yaml" command="load" />
+  <rosparam file="$(find cartographer_ros)/../../launch/param/global_costmap_params.yaml" command="load" />
+  <rosparam file="$(find cartographer_ros)/../../launch/param/move_base_params.yaml" command="load" />
+  <rosparam file="$(find cartographer_ros)/../../launch/param/dwa_local_planner_params.yaml" command="load" />
+  <param name="DWAPlannerROS/min_vel_x" value="0.0"  />
+  
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+  </node>
+
+  <node pkg="agv_comm" type="agv_comm_node" name="agv_comm" output="screen" >
+  </node>
+
+</launch>

@@ -1,0 +1,3 @@
+D:\setup\cmake\cmake-3.18.1-win64-x64\cmake-3.18.1-win64-x64\bin\cmake.exe -E rm -f CMakeFiles\uvd.dir/objects.a
+D:\Qt\Qt5.12.8\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\uvd.dir/objects.a @CMakeFiles\uvd.dir\objects1.rsp
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe -g -shared -o libuvd.dll -Wl,--out-implib,libuvd.dll.a -Wl,--major-image-version,1,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\uvd.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\uvd.dir\linklibs.rsp

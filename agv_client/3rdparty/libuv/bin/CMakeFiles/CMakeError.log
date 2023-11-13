@@ -1,0 +1,195 @@
+Performing C SOURCE FILE Test UV_LINT_W4 failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_7b6fe/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7b6fe.dir\build.make CMakeFiles/cmTC_7b6fe.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b6fe.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_W4   /W4 -o CMakeFiles\cmTC_7b6fe.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /W4: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7b6fe.dir\build.make:84: CMakeFiles/cmTC_7b6fe.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_7b6fe/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_0fb19/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0fb19.dir\build.make CMakeFiles/cmTC_0fb19.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fb19.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_UNUSED_PARAMETER_MSVC   /wd4100 -o CMakeFiles\cmTC_0fb19.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4100: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0fb19.dir\build.make:84: CMakeFiles/cmTC_0fb19.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_0fb19/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_fe403/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fe403.dir\build.make CMakeFiles/cmTC_fe403.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe403.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_CONDITIONAL_CONSTANT_MSVC   /wd4127 -o CMakeFiles\cmTC_fe403.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4127: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_fe403.dir\build.make:84: CMakeFiles/cmTC_fe403.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_fe403/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_4d871/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4d871.dir\build.make CMakeFiles/cmTC_4d871.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d871.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_NONSTANDARD_MSVC   /wd4201 -o CMakeFiles\cmTC_4d871.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4201: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4d871.dir\build.make:84: CMakeFiles/cmTC_4d871.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_4d871/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_29b42/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_29b42.dir\build.make CMakeFiles/cmTC_29b42.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29b42.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC   /wd4206 -o CMakeFiles\cmTC_29b42.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4206: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_29b42.dir\build.make:84: CMakeFiles/cmTC_29b42.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_29b42/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_3b191/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3b191.dir\build.make CMakeFiles/cmTC_3b191.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b191.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC   /wd4210 -o CMakeFiles\cmTC_3b191.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4210: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_3b191.dir\build.make:84: CMakeFiles/cmTC_3b191.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_3b191/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_b73d5/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b73d5.dir\build.make CMakeFiles/cmTC_b73d5.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b73d5.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC   /wd4232 -o CMakeFiles\cmTC_b73d5.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4232: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b73d5.dir\build.make:84: CMakeFiles/cmTC_b73d5.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_b73d5/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_LOCAL failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_11baf/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_11baf.dir\build.make CMakeFiles/cmTC_11baf.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11baf.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_HIDES_LOCAL   /wd4456 -o CMakeFiles\cmTC_11baf.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4456: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_11baf.dir\build.make:84: CMakeFiles/cmTC_11baf.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_11baf/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_PARAM failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_be6ba/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_be6ba.dir\build.make CMakeFiles/cmTC_be6ba.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be6ba.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_HIDES_PARAM   /wd4457 -o CMakeFiles\cmTC_be6ba.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4457: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_be6ba.dir\build.make:84: CMakeFiles/cmTC_be6ba.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_be6ba/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_GLOBAL failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_bf0da/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bf0da.dir\build.make CMakeFiles/cmTC_bf0da.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf0da.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_HIDES_GLOBAL   /wd4459 -o CMakeFiles\cmTC_bf0da.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4459: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_bf0da.dir\build.make:84: CMakeFiles/cmTC_bf0da.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_bf0da/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_15d27/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_15d27.dir\build.make CMakeFiles/cmTC_15d27.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15d27.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC   /wd4706 -o CMakeFiles\cmTC_15d27.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4706: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_15d27.dir\build.make:84: CMakeFiles/cmTC_15d27.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_15d27/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNSAFE_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_4763d/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4763d.dir\build.make CMakeFiles/cmTC_4763d.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4763d.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_NO_UNSAFE_MSVC   /wd4996 -o CMakeFiles\cmTC_4763d.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /wd4996: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4763d.dir\build.make:84: CMakeFiles/cmTC_4763d.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_4763d/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_UTF8_MSVC failed with the following output:
+Change Dir: E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe cmTC_60f37/fast && D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_60f37.dir\build.make CMakeFiles/cmTC_60f37.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60f37.dir/src.c.obj
+d:\Qt\Qt5.12.8\Tools\mingw730_64\bin\gcc.exe   -DUV_LINT_UTF8_MSVC   /utf-8 -o CMakeFiles\cmTC_60f37.dir\src.c.obj -c E:\project\7.agv\agc_src\agv_controler2\agv_client\3rdparty\libuv\bin\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: /utf-8: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_60f37.dir\build.make:84: CMakeFiles/cmTC_60f37.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:139: cmTC_60f37/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }

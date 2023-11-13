@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "libuv",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uv_a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uv_a-Debug-3ae92e8fa13ecd49e43d.json",
+					"name" : "uv_a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uvd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uvd-Debug-99d21bfdff4f494c468a.json",
+					"name" : "uvd",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin",
+		"source" : "E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

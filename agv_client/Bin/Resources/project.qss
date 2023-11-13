@@ -1,0 +1,454 @@
+QWidget,
+QMainWindow{
+	background-color: rgba(30,30,30,255);
+    font: 10pt "微软雅黑";
+	color: rgb(194, 193, 187);
+}
+
+/*编辑框、显示框*/
+QLineEdit,
+QListView,
+QTreeView,
+QTableView,
+QColumnView{
+	background-color: rgba(0, 0, 0,80);
+	selection-color: rgb(255, 255, 255);
+	selection-background-color:rgba(70, 140, 195,50);
+	border:0px groove  gay;	
+	border-color: rgba(255,255,255,80);
+    padding:2px 4px;
+	gridline-color: rgb(150, 150, 150);
+}
+/*表头样式*/
+QHeaderView::section{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(126, 170, 230, 100), stop:1 rgba(126, 170, 230, 50));
+	border:1px solid rgba(220,220,220,100);
+	color: rgb(255, 255, 255);
+	font: 75 10pt "微软雅黑";
+}
+
+
+/*按钮*/
+QPushButton,
+QToolButton{
+	color: rgba(255, 255, 255,150);
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(70, 70, 70, 100), stop:1 rgba(80, 80, 80, 50));
+	font: 75 10pt "微软雅黑";
+	border:2px groove  gay;	
+	border-color: rgba(255,255,255,60);
+	padding:1px 1px;
+    min-Height:16px;
+
+}
+/*按钮悬停*/
+QPushButton:hover,
+QToolButton:hover{
+	color: rgba(255, 255, 255,150);
+	background-color: rgba(255, 150, 0,10);
+	font: 75 10pt "微软雅黑";
+	border:3px groove  gay;	
+	border-color: rgba(70, 140, 195,255);
+}
+
+/*按钮按下状态*/
+QPushButton:pressed,
+QPushButton:checked,
+QPushButton:selected,
+QToolButton:pressed,
+QToolButton:checked,
+QToolButton:selected{
+	color: rgba(255, 255, 255,150);
+	background-color: rgba(100, 169, 100,255);
+	font: 75 10pt "微软雅黑";
+	border:3px groove  gay;	
+	border-color: rgba(70, 140, 195,255);
+}
+
+/*停靠栏*/
+QDockWidget{
+	color: rgb(255, 255, 255);
+	border:1px groove  gay;	
+	border-color: rgba(255,255,0,60);
+}
+/*选项*/
+QCheckBox,
+QRadioButton{
+	background-color: none;
+}
+/*选项勾选状态*/
+QCheckBox:hover,
+QCheckBox:checked,
+QRadioButton:hover,
+QRadioButton:checked{
+	color: rgb(240, 130, 40);
+}
+/*选项卡*/
+QTabWidget::pane{
+	background-color: none;
+	border:1px solid rgba(255,255,255,80);
+}
+/*选项卡tab按钮*/
+QTabWidget::tab-bar {
+      left: 30px; /* move to the right by 5px */ 
+	  top: 1px; /* 下移一个像素，盖起tabwidget的边 */ 
+  }
+QTabBar::tab{
+	border:none;
+	min-width:100px; /*tab标签间隔最小*/
+	padding-top: 5px;
+}
+QTabBar::tab:selected{
+	color: rgb(255, 255, 255);/*tab标签文本颜色*/
+	border:1px solid rgba(255,255,255,80);
+	border-bottom: none;/*隐藏下边界*/
+}
+QTabBar::tab:!selected {
+      color: rgb(200, 200, 200);/*tab标签文本颜色*/
+      margin-top: 2px; /* make non-selected tabs look smaller */
+	  border-bottom: 1px solid rgba(255,255,255,80);
+}
+  
+/*编辑框、微调框*/
+QComboBox,
+QTextEdit,
+QPlainTextEdit,
+QLineEdit,
+QTimeEdit,
+QDateEdit,
+QDateTimeEdit,
+QSpinBox,
+QDoubleSpinBox{
+	background-color: rgba(0, 0, 0,80);
+	selection-color: rgb(255, 255, 255);
+	selection-background-color:rgba(70, 140, 195,50);
+	border:0px groove  gay;	
+	border-color: rgba(255,255,255,80);
+	min-height:20px;
+}
+/*编辑框、微调框 按钮*/
+QTextEdit::up-button,
+QTextEdit::down-button,
+QPlainTextEdit::up-button,
+QPlainTextEdit::down-button,
+QLineEdit::up-button,
+QLineEdit::down-button,
+QTimeEdit::up-button,
+QTimeEdit::down-button,
+QDateEdit::up-button,
+QDateEdit::down-button,
+QDateTimeEdit::up-button,
+QDateTimeEdit::down-button,
+QSpinBox::up-button,
+QSpinBox::down-button,
+QDoubleSpinBox::up-button,
+QDoubleSpinBox::down-button{
+	background-color: rgba(255,255,255,60);
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+}
+/*编辑框、微调框 按钮状态*/
+QTextEdit::up-button:hover,
+QTextEdit::down-button:hover,
+QPlainTextEdit::up-button:hover,
+QPlainTextEdit::down-button:hover,
+QLineEdit::up-button:hover,
+QLineEdit::down-button:hover,
+QTimeEdit::up-button:hover,
+QTimeEdit::down-button:hover,
+QDateEdit::up-button:hover,
+QDateEdit::down-button:hover,
+QDateTimeEdit::up-button:hover,
+QDateTimeEdit::down-button:hover,
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover,
+QDoubleSpinBox::up-button:hover,
+QDoubleSpinBox::down-button:hover{
+	background-color:rgba(70, 140, 195,100);	
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+}
+/*编辑框、微调框 箭头
+QTextEdit::down-arrow,
+QPlainTextEdit::down-arrow,
+QLineEdit::down-arrow,
+QTimeEdit::down-arrow,
+QDateEdit::down-arrow,
+QDateTimeEdit::down-arrow,
+QSpinBox::down-arrow,
+QDoubleSpinBox::down-arrow{
+	image: url(:/Image/Bin/Resources/icon/arrow_down.png);
+	height:5px;
+}
+QTextEdit::up-arrow,
+QPlainTextEdit::up-arrow,
+QLineEdit::up-arrow,
+QTimeEdit::up-arrow,
+QDateEdit::up-arrow,
+QDateTimeEdit::up-arrow,
+QSpinBox::up-arrow,
+QDoubleSpinBox::up-arrow{
+	image: url(:/Image/Bin/Resources/icon/arrow_up.png);
+	height:5px;
+}
+
+/*选项栏 箭头
+QComboBox::drop-down{	
+	background-color: rgba(255,255,255,60);
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);	
+	image: url(:/com_cs/icon/down-arrow.png);
+	width:7px;
+    padding:2px 4px;
+}
+QComboBox::drop-down:hover{
+	background-color:rgba(70, 140, 195,100);	
+    border:1px groove  gay;	
+	border-color: rgba(30, 125, 255,100);
+	image: url(:/com_cs/icon/down-arrow.png);
+	width:7px;
+    padding:2px 4px;
+}
+
+/*标签*/
+QLabel{
+    background-color: rgba(255, 255, 255,0);
+
+}
+/*组*/
+Q3GroupBox,QGroupBox{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(80, 80, 90, 255), stop:1 rgba(30, 30, 30, 255));
+    border:2px groove;	
+    border-color:rgba(255,255,255,80);
+}
+/*滚动条*/
+QScrollBar{
+	background-color: rgba(255, 255, 255,10);
+	border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+}
+/*水平滚动条*/
+QScrollBar:horizontal{
+    height:17px;
+    margin:0 16 0 16;
+}
+/*水平滚动条 滑块*/
+QScrollBar::handle:horizontal{
+	background-color: rgba(255,255,255,95);
+    min-width:20px;
+    margin:1px 0px 1px 0px;
+	border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+}
+QScrollBar::handle:horizontal:hover{
+	background-color:rgba(70, 140, 195,100);	
+    min-width:20px;
+    margin:1px 0px 1px 0px;
+	border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+}
+/*水平滚动条 微调按钮*/
+QScrollBar::add-line:horizontal{
+	background-color: rgba(255,255,255,60);
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+    width:15px;
+    subcontrol-position:right;
+    subcontrol-origin:margin;
+}
+QScrollBar::add-line:horizontal:hover{
+	background-color:rgba(70, 140, 195,100);	
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+    width:15px;
+    subcontrol-position:right;
+    subcontrol-origin:margin;
+}
+QScrollBar::sub-line:horizontal{
+	background-color: rgba(255,255,255,60);
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+    width:15px;
+    subcontrol-position:left;
+    subcontrol-origin:margin;
+}
+QScrollBar::sub-line:horizontal:hover{
+	background-color:rgba(70, 140, 195,100);	
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+    width:15px;
+    subcontrol-position:left;
+    subcontrol-origin:margin;
+}
+/*水平滚动条 箭头*/
+QScrollBar::left-arrow:horizontal{
+	image: url(:/Image/Bin/Resources/icon/arrow_left.png);
+height:7px;
+}
+QScrollBar::right-arrow:horizontal{
+	image: url(:/Image/Bin/Resources/icon/arrow_right.png);
+height:7px;
+}
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal{
+	background-color:none;
+}
+/*垂直滚动条*/
+QScrollBar:vertical{
+    /*height:17px;*/
+    margin: 16 0 16 0;
+}
+/*垂直滚动条 滑块*/
+QScrollBar::handle:vertical{
+	background-color:  rgba(255,255,255,95);
+    min-height:20px;
+    margin:1px 0px 1px 0px;
+	border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+}
+QScrollBar::handle:vertical:hover{
+	background-color:rgba(70, 140, 195,100);	
+    min-height:20px;
+    margin:1px 0px 1px 0px;
+	border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+}
+/*垂直滚动条 微调按钮*/
+QScrollBar::add-line:vertical{
+	background-color: rgba(255,255,255,60);
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+    height:15px;
+    subcontrol-position:bottom;
+    subcontrol-origin:margin;
+}
+QScrollBar::add-line:vertical:hover{
+	background-color:rgba(70, 140, 195,100);	
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+    height:15px;
+    subcontrol-position:bottom;
+    subcontrol-origin:margin;
+}
+QScrollBar::sub-line:vertical{
+	background-color: rgba(255,255,255,60);
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 255,80);
+    height:15px;
+    subcontrol-position:top;
+    subcontrol-origin:margin;
+}
+QScrollBar::sub-line:vertical:hover{
+	background-color:rgba(70, 140, 195,100);	
+    border:1px groove  gay;	
+	border-color: rgba(255, 255, 127,50);
+    height:15px;
+    subcontrol-position:top;
+    subcontrol-origin:margin;
+}
+/*垂直滚动条 箭头*/
+QScrollBar::up-arrow:vertical{
+	image: url(:/Image/Bin/Resources/icon/arrow_up.png);
+    height:7px;
+}
+QScrollBar::down-arrow:vertical{
+	image: url(:/Image/Bin/Resources/icon/arrow_down.png);
+    height:7px;
+}
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical{
+	background-color:none;
+}
+/*滑块背景*/
+QSlider{
+	background:none;
+}
+/*水平滑块*/
+QSlider::groove:horizontal{
+	border:1px solid rgba(255, 255, 255,80);
+	background:rgba(255,255,255,80);
+	height:5px;
+	border-radius:1px;
+	padding-left:-1px;
+	padding-right:-1px;
+}
+QSlider::sub-page:horizontal{
+	background:rgba(70, 140, 195,150);
+	border:1px solid none;
+	height:10px;
+	border-radius:2px;
+}
+QSlider::add-page:horizontal{
+	background:rgba(255,255,255,80);
+	border:0px solid ;
+	height:10px;
+	border-radius:2px;
+}
+/*水平滑块 游标*/
+QSlider::handle:houizontal{
+	background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 #265782,stop:0.778409 rgba(255,255,255,255));
+	width:11px;
+	margin-top:-3px;
+	margin-bottom:-3px;
+	border-radius:5px;
+}
+QSlider::handle:horizontal:hover{
+	background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 rgb(0,150,255),stop:0.778409 rgba(255,255,255,255));
+	width:11px;
+	margin-top:-3px;
+	margin-bottom:-3px;
+	border-radius:5px;
+}
+/*垂直滑块*/
+QSlider::groove:vertical{
+	border:1px solid rgba(255, 255, 255,80);
+	background:rgba(255,255,255,80);
+	width:5px;
+	border-radius:1px;
+    padding-top:-1px;
+    padding-bottom:-1px;
+}
+QSlider::add-page:vertical{
+	background:rgba(70, 140, 195,150);
+	border:1px solid none;
+	width:10px;
+	border-radius:2px;
+}
+QSlider::sub-page:vertical{
+	background:rgba(255,255,255,80);
+	border:0px solid ;
+	width:10px;
+	border-radius:2px;
+}
+/*垂直滑块 游标*/
+QSlider::handle:vertical{
+	background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 #265782,stop:0.778409 rgba(255,255,255,255));
+	height:11px;
+	margin-left:-3px;
+	margin-right:-3px;
+	border-radius:5px;
+}
+QSlider::handle:vertical:hover{
+	background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 rgb(0,150,255),stop:0.778409 rgba(255,255,255,255));
+	height:11px;
+	margin-left:-3px;
+	margin-right:-3px;
+	border-radius:5px;
+}
+/*进度条*/
+QProgressBar{
+	background-color: rgba(0, 0, 0,80);
+	color:rgb(255,150,0);
+	border:1px solid rgba(255,255,255,80);
+	text-align:center;
+    max-height:20px;
+}
+QProgressBar::chunk{
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:1, stop:0 rgba(255, 150, 0, 190), stop:1 rgba(255, 150, 0,80));
+
+}
+
+/*具体控件*/
+QWidget#widget_WIFI,
+QWidget#widget_AGVControl{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(126, 170, 230, 100), stop:1 rgba(126, 170, 230, 50));
+}

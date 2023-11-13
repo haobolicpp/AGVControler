@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IIMS-Setup", "IIMS-Setup\IIMS-Setup.vdproj", "{465A7332-D0F8-40DD-8308-466CB34F65B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{465A7332-D0F8-40DD-8308-466CB34F65B2}.Debug|Default.ActiveCfg = Debug
+		{465A7332-D0F8-40DD-8308-466CB34F65B2}.Debug|Default.Build.0 = Debug
+		{465A7332-D0F8-40DD-8308-466CB34F65B2}.Release|Default.ActiveCfg = Release
+		{465A7332-D0F8-40DD-8308-466CB34F65B2}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/agv_comm/include",
+                "${workspaceFolder}/../devel_isolated/move_base_msgs/include/**",
+                "${workspaceFolder}/navigation-melodic-devel/**",
+                "${workspaceFolder}/robot_pose_ekf/include/**",
+                "${workspaceFolder}/bfl/**"
+            ],
+            "name": "ROS"
+        }
+    ],
+    "version": 4
+}

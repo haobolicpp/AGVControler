@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>resource/II-MS.jpg</file>
+        <file>resource/about.JPG</file>
+        <file>resource/IIMS.ico</file>
+        <file>resource/cursor/cursor_line.png</file>
+        <file>resource/cursor/cursor_station.png</file>
+        <file>../Bin/Resources/icon/arrow_down.png</file>
+        <file>../Bin/Resources/icon/arrow_left.png</file>
+        <file>../Bin/Resources/icon/arrow_right.png</file>
+        <file>../Bin/Resources/icon/arrow_up.png</file>
+        <file>resource/waiting.gif</file>
+        <file>resource/cursor/cursor_des.png</file>
+        <file>agv_client.ico</file>
+        <file>../Bin/Resources/icon/down_control.png</file>
+        <file>../Bin/Resources/icon/left_control.png</file>
+        <file>../Bin/Resources/icon/right_control.png</file>
+        <file>../Bin/Resources/icon/up_control.png</file>
+    </qresource>
+</RCC>

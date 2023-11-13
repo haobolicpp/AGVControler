@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CManualControl</class>
+ <widget class="QWidget" name="CManualControl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>127</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QPushButton" name="btn_up">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../AGVClient.qrc">
+       <normaloff>:/Image/Bin/Resources/icon/up_control.png</normaloff>:/Image/Bin/Resources/icon/up_control.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="btn_left">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../AGVClient.qrc">
+       <normaloff>:/Image/Bin/Resources/icon/left_control.png</normaloff>:/Image/Bin/Resources/icon/left_control.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="btn_right">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../AGVClient.qrc">
+       <normaloff>:/Image/Bin/Resources/icon/right_control.png</normaloff>:/Image/Bin/Resources/icon/right_control.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="btn_down">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../AGVClient.qrc">
+       <normaloff>:/Image/Bin/Resources/icon/down_control.png</normaloff>:/Image/Bin/Resources/icon/down_control.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../AGVClient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

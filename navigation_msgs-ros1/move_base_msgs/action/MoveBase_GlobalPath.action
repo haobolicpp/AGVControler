@@ -1,0 +1,10 @@
+# Define the goal 全局路径及目标点（世界坐标系）
+nav_msgs/Path global_path  #全局路径
+geometry_msgs/PoseStamped target_pose #目标点
+float32 start_angle #初始旋转角度
+---
+
+# Define the result 空的
+---
+
+# Define a feedback message 空的

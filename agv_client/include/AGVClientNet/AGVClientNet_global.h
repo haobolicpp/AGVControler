@@ -1,0 +1,12 @@
+#ifndef AGVCLIENTNET_GLOBAL_H
+#define AGVCLIENTNET_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(AGVCLIENTNET_LIBRARY)
+#  define AGVCLIENTNET_EXPORT Q_DECL_EXPORT
+#else
+#  define AGVCLIENTNET_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // AGVCLIENTNET_GLOBAL_H

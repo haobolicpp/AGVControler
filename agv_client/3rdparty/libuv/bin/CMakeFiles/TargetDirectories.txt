@@ -1,0 +1,8 @@
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/uv_a.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/uvd.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/install/local.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/install.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/edit_cache.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/rebuild_cache.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/list_install_components.dir
+E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/CMakeFiles/install/strip.dir

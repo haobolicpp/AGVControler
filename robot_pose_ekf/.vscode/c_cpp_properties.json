@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/gy/pose_ekf/devel/include/**",
+        "/home/gy/carto_ws/devel_isolated/cartographer_ros_msgs/include/**",
+        "/home/gy/catkin_ws/devel/include/**",
+        "/home/gy/scout/devel/include/**",
+        "/home/gy/sick/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/gy/carto_ws/devel_isolated/cartographer/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/amcl/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/base_local_planner/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/carrot_planner/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/clear_costmap_recovery/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/costmap_2d/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/dwa_local_planner/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/global_planner/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/map_server/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/move_base/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/move_slow_and_clear/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/nav_core/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/navfn/include/**",
+        "/home/gy/gmapping/src/openslam_gmapping-melodic-devel/include/**",
+        "/home/gy/pose_ekf/src/robot_pose_ekf/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/rotate_recovery/include/**",
+        "/home/gy/scout/src/scout_ros/scout_base/include/**",
+        "/home/gy/scout/src/scout_ros/scout_gazebo_sim/include/**",
+        "/home/gy/scout/src/scout_ros/scout_sdk/include/**",
+        "/home/gy/scout/src/scout_ros/scout_webots_sim/include/**",
+        "/home/gy/sick/src/sick_scan/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_bullet/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_eigen/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_geometry_msgs/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_kdl/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_msgs/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_ros/include/**",
+        "/home/gy/gmapping/src/geometry2-melodic-devel/tf2_sensor_msgs/include/**",
+        "/home/gy/gmapping/src/navigation-melodic-devel/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

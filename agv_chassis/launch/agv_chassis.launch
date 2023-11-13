@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="agv_chassis" type="agv_chassis_node" name="agv_chassis"  output="screen" />
+    
+    <node pkg="tf2_ros" type="static_transform_publisher" name="baselink2laser" 
+    args="0.301 0 0 0 0 0 base_link laser" />
+
+
+</launch>

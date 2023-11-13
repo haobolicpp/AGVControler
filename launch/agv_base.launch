@@ -1,0 +1,24 @@
+
+<launch>
+
+  <!--AGV base launch-->
+  <include file="$(find sick_scan)/launch/sick_lms_1xx.launch" >
+  </include>
+
+  <include file="$(find scout_bringup)/launch/scout_minimal.launch" >
+  </include>
+
+  <include file="$(find scout_description)/launch/display_model.launch" >
+  </include>
+
+  <include file="$(find xsens_mti_driver)/launch/xsens_mti_node.launch" >
+  <remap from="/imu" to="/imu_data" />
+  </include>
+
+  <include file="$(find robot_pose_ekf)/robot_pose_ekf.launch" >
+  </include >
+
+  <!--include file="$(find robot_pose_ekf)/robot_pose_ekf.launch" >
+  </include -->
+
+</launch>

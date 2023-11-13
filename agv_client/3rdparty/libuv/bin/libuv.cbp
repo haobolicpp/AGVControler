@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libuv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uv_a">
+				<Option output="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/libuv_a.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWIN32_LEAN_AND_MEAN"/>
+					<Add option="-D_WIN32_WINNT=0x0602"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/include"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 uv_a"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uv_a/fast">
+				<Option output="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/libuv_a.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWIN32_LEAN_AND_MEAN"/>
+					<Add option="-D_WIN32_WINNT=0x0602"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/include"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 uv_a/fast"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uvd">
+				<Option output="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/libuvd.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILDING_UV_SHARED=1"/>
+					<Add option="-DWIN32_LEAN_AND_MEAN"/>
+					<Add option="-D_WIN32_WINNT=0x0602"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/include"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 uvd"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uvd/fast">
+				<Option output="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/libuvd.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILDING_UV_SHARED=1"/>
+					<Add option="-DWIN32_LEAN_AND_MEAN"/>
+					<Add option="-D_WIN32_WINNT=0x0602"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/include"/>
+					<Add directory="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="d:/Qt/Qt5.12.8/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 uvd/fast"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Qt5.12.8/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/fs-poll.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/idna.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/idna.h">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/inet.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/random.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/strscpy.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/strscpy.h">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/threadpool.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/timer.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/uv-common.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/uv-common.h">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/uv-data-getter-setters.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/version.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/async.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/core.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/detect-wakeup.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/dl.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/error.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/fs-event.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/fs.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/getaddrinfo.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/getnameinfo.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/handle.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/loop-watcher.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/pipe.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/poll.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/process-stdio.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/process.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/signal.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/snprintf.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/stream.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/tcp.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/thread.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/tty.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/udp.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/util.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/winapi.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/winapi.h">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/winsock.c">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/src/win/winsock.h">
+			<Option target="uv_a"/>
+			<Option target="uvd"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/libuv-static.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/project/7.agv/agc_src/agv_controler2/agv_client/3rdparty/libuv/libuv.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
